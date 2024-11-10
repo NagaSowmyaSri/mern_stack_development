@@ -5,9 +5,9 @@
   "type":"module",
   "scripts": {
   
-    "dev":"nodemon backnew/server.js",
+    "dev":"mongoose backnew/server.js",
     "build":"npm install && npm install --prefix frontnew && npm run build --prefix frontnew",
-    "start":"nodemon backnew/server.js"
+    "start":"mongoose backnew/server.js"
   },
   "author": "",
   "license": "ISC",
